@@ -270,7 +270,7 @@ jobs:
             npm run migrations > migrations_ouput.txt
 
       - run:
-          name: Send migration results to memstash
+          name: Send  migration results to memstash
           command: |
             cd ~/project/backend
 
